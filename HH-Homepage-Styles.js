@@ -14,18 +14,10 @@
 /*  ===========
      CHANGELOG
     =========== */
-// v0.1.0
-// - uploaded the script to github
-//
-// v0.0.3
-// - optimized the code so it's easier for new user to use
-// - made so it's incredibly easy to add any amount of images to cycle randomly
-//
-// v0.0.2
-// - Made it possible to cycle between 2 possible images instead of a static one, not too hard setting up for more than 2
-//
-// v0.0.1
-// - Allowed to player to change the girl on the home page of the game to any image you wish
+// 0.1.0: uploaded the script to github
+// 0.0.3: optimized the code so it's easier for new users to use and so it's incredibly easy to add any amount of images to cycle randomly
+// 0.0.2: made it possible to cycle between 2 possible images instead of a static one, not too hard setting up for more than 2
+// 0.0.1: Allowed to player to change the girl on the home page of the game to any image you wish
 
 (() => {
     var sheetMM = (function() {var style = document.createElement('style');document.head.appendChild(style);return style.sheet;})();
