@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            HH Homepage Styles
 // @description     Allows customization on the homepage so you can change beyond what the game allows you to
-// @version         0.1.0
+// @version         0.1.1
 // @match           https://*.hentaiheroes.com/*
 // @match           https://nutaku.haremheroes.com/*
 // @match           https://*.gayharem.com/*
