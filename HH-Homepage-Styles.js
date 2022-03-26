@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            HH Homepage Styles
 // @description     Allows customization on the homepage so you can change beyond what the game allows you to
-// @version         0.1.3
+// @version         0.1.4
 // @match           https://*.hentaiheroes.com/*
 // @match           https://nutaku.haremheroes.com/*
 // @match           https://*.gayharem.com/*
@@ -14,6 +14,7 @@
 /*  ===========
      CHANGELOG
     =========== */
+// 0.1.4: fixed background showing instead of adventure map the world map
 // 0.1.3: allows the player to set to "true" whatever features they want to use
 // 0.1.2: now you can also change the main town background image (still will have to wait to see what happens during events, especially orgy days)
 // 0.1.1: changed the original images on the source code to actual template images
@@ -55,7 +56,7 @@
 
     if(hpBackground==true){
         r = Math.floor(Math.random() * background.length);
-        if (['battle', 'club', 'arena', 'team', 'champion', 'hero'].some(page => location.pathname.includes(page))) {return}
+        if (['battle', 'club', 'arena', 'team', 'champion', 'hero', 'map', 'world'].some(page => location.pathname.includes(page))) {return}
         sheet.insertRule('div#bg_all div.fixed_scaled img {content: url(' + background[r] + '); object-fit: cover;}');
     }
 })();
